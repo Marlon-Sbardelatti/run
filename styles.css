@@ -1,0 +1,18 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+:root, [data-bs-theme=light]{
+
+    --bs-primary-rgb: 41, 197, 207
+}
+
+*{
+    font-family: 'Poppins',Arial, sans-serif;
+}
+body{
+    color: white;
+}
+
+#mapDetail{
+    height: 300px;
+    background-color: #ccc;
+}

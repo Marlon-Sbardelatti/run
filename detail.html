@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ride</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles.css">
+     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+</head>
+
+<body class="bg-dark h-100">
+    <div class="container d-flex flex-column h-100">
+        <nav class="navbar justify-content-end">
+            <a href="index.html" class="btn btn-close btn-close-white border border-dark p-2"></a>
+        </nav>
+        <div id="mapDetail" class="rounded-4"></div>
+
+        <div class="d-flex flex-column justify-content-between flex-fill mt-3 mb-3">
+            <div id="data">
+
+            </div>
+            <button id="deleteBtn" class="btn btn-danger"><span class="display-4">Delete</span></button>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <script src="./storage.js"></script>
+    <script src="./dataManager.js"></script>
+    <script src="./detail.js"></script>
+</body>
+
+</html>
